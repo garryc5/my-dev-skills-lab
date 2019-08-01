@@ -1,4 +1,8 @@
-body *
+body
+{
+    width: 100vw;
+}
+div
 {
     display: flexbox;
     flex-direction: row;
@@ -10,9 +14,12 @@ h1
 {
     background-color: green;
 }
-table * *
+table
 {
+    width: 193px;
+    text-align: left;
     color: orange;
+    margin: 0 auto;
 }
 button
 {
